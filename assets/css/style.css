@@ -20,7 +20,6 @@ body {
   padding: 0 15vh 0;
   border-bottom: solid 1px #191919;
   position: sticky;
-  
 }
 
 .navbar * {
@@ -49,7 +48,6 @@ body {
   align-items: center;
   padding: 70px 150px 70px;
   border-bottom: solid 1px #191919;
-  
 }
 
 /*SUB NAVBAR ARTICLE LEFT SIDE */
@@ -117,8 +115,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content:center
-  
+  justify-content: center;
 }
 
 .main_trending_title {
@@ -132,7 +129,7 @@ main {
   padding-right: 7px;
 }
 
-.main_trending_title h3 {
+.main_trending_title p {
   font-weight: bold;
   letter-spacing: 0.1vh;
 }
@@ -183,10 +180,50 @@ main {
 
 /*MAIN ARTICLES SECTION */
 
-.container_4{ 
-    background-color: aqua;
+.container_4 {
+  background-color: aqua;
 }
 
-.cont_4_2{
-    
+.cont_4_2 {
+}
+
+.discover_all {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 30px 5vh;
+  justify-content: space-between;
+}
+.discover_title {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.discover_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: px;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  width: 350px;
+}
+
+.discover_buttons div {
+  background-color: #ffffff;
+  border: solid 1px lightgrey;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 5%;
+  color: gray;
+  cursor: pointer;
 }
