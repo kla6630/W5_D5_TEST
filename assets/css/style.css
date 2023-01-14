@@ -24,6 +24,7 @@ body {
   border-bottom: solid 1px #191919;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .navbar * {
@@ -96,6 +97,9 @@ body {
 .sub_navbar_article_right {
 }
 
+.sub_navbar_article_right svg {
+}
+
 /*MAIN*/
 
 /*TRENDING ON MEDIUM SECTION */
@@ -106,6 +110,7 @@ body {
   align-content: center;
   flex-wrap: wrap;
   border-bottom: solid 1px #191919;
+  padding: 20px 20px 20px 20px;
 }
 .trending_articles {
   display: flex;
@@ -305,13 +310,4 @@ footer div {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-}
-
-main {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  max-width: 1080px;
-  flex-direction: column;
-  align-items: center;
 }
