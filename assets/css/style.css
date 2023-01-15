@@ -26,7 +26,6 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
-  
 }
 
 .nav_container_1200px {
@@ -61,10 +60,6 @@ body {
   padding: 11px 20px;
   border-radius: 30px;
 }
-
-
-
-
 
 /*HEAD ARTICLE */
 
@@ -133,6 +128,7 @@ body {
 
 .head_article_right svg {
   vertical-align: middle;
+  overflow: hidden;
 }
 
 /*MAIN*/
@@ -326,8 +322,8 @@ body {
   flex-wrap: wrap;
   padding: 30px 5vh;
   justify-content: flex-start;
-  border-bottom: solid 1px lightgrey;
   flex-direction: column;
+  border-bottom: solid 1px lightgrey;
 }
 .discover_title {
   font-weight: bold;
@@ -359,7 +355,7 @@ body {
   margin-top: 5px;
 }
 
-/*FOOTER SECTION */
+/*LAST SECTION */
 
 footer {
   display: flex;
