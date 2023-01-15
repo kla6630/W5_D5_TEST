@@ -23,29 +23,32 @@
   </head>
 
   <body>
-    <nav class="navbar">
-      <div class="navbar_logo">
-        <img src="./assets/imgs/svg/logo.svg" alt="logo" />
-      </div>
-      <div class="nav_items_text">
-        <div class="nav_item_small">Our story</div>
-        <div class="nav_item_small">Membership</div>
-        <div class="nav_item_small">Write</div>
-        <div class="nav_item_small">Sign In</div>
-        <div class="nav_item_rounded">Get started</div>
+    <nav class="nav">
+      <div class="nav_container_1200px">
+        <div class="logo">
+          <img src="./assets/imgs/svg/logo.svg" />
+        </div>
+        <div class="navbar">
+          <div>Our story</div>
+          <div>Membership</div>
+          <div>Write</div>
+          <div>Sign In</div>
+          <div id="navbar_button">Get started</div>
+        </div>
       </div>
     </nav>
-
-    <article class="sub_navbar_article">
-      <div class="sub_navbar_article_left">
-        <h1>Stay curious.</h1>
-        <b
-          >Discover stories, thinking, and expertise from writers on any
-          topic.</b
-        >
-        <button>Start reading</button>
+    <div class="head_background">
+      <div class="head_article">
+        <div class="head_article_left">
+          <h1>Stay curious.</h1>
+          <b
+            >Discover stories, thinking, and expertise from writers on any
+            topic.</b
+          >
+          <div id="padding_button"><button>Start reading</button></div>
+        </div>
       </div>
-      <div class="sub_navbar_article_right">
+      <div class="head_article_right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 585 462"
@@ -72,22 +75,22 @@
               font-style="normal"
               font-weight="normal"
               aria-label=" M M M M M M M M M M M M M M
-            M M M M M M M M M M M M M M M M M M M M M
-           M M M M M M M M M M M M M M M M M M M M M M M M M
-            M M M M M M M M M M M M
-            M M M M M M M M M M M M M M M M M M M
-            M M M M M M M M M M M M M M M M M M M M M
-            M M M M M M M M M M M M M M
-           M M M M M M M M M M M M M M M M M
-           M M M M M M M M M M M M M M M M M M M
-            M M M M M M M M M M M M M M M M M M M M M M M
-           M M M M M M M M M M M M
-            M M M M M M M M M M M M
-            M M M M M M M M M M M M M M M M M M M M M
-            M M M M M M M M M M M
-            M M M M M M M M M M M M M M M M M
-            M M M M M M M M M M M M M M M M
-           "
+          M M M M M M M M M M M M M M M M M M M M M
+         M M M M M M M M M M M M M M M M M M M M M M M M M
+          M M M M M M M M M M M M
+          M M M M M M M M M M M M M M M M M M M
+          M M M M M M M M M M M M M M M M M M M M M
+          M M M M M M M M M M M M M M
+         M M M M M M M M M M M M M M M M M
+         M M M M M M M M M M M M M M M M M M M
+          M M M M M M M M M M M M M M M M M M M M M M M
+         M M M M M M M M M M M M
+          M M M M M M M M M M M M
+          M M M M M M M M M M M M M M M M M M M M M
+          M M M M M M M M M M M
+          M M M M M M M M M M M M M M M M M
+          M M M M M M M M M M M M M M M M
+         "
               transform="matrix(1,0,0,1,291,232)"
               opacity="1"
               style="display: block"
@@ -9250,7 +9253,7 @@
           </g>
         </svg>
       </div>
-    </article>
+    </div>
 
     <div class="trending_all">
       <div class="main_trending_title">
@@ -9292,10 +9295,10 @@
               />
               <h3>Erin A Ross <span>in</span> Slackjaw</h3>
             </div>
-            <b
-              >How I Learned to Love My Breasts Even Though One Is A Horcrux For
-              Voldemort</b
-            >
+            <b>
+              How I Learned to Love My Breasts Even Though One Is A Horcrux For
+              Voldemort
+            </b>
             <h4>Oct 26·2 min read</h4>
           </div>
         </div>
@@ -9308,7 +9311,7 @@
                 src="./assets/imgs/image04.png"
                 id="inside_trending_article_02"
               />
-              <h3>Frank Mastropolo <span>in</span> The Riffk</h3>
+              <h3>Frank Mastropolo <span>in</span> The Riff</h3>
             </div>
             <b>The Night Paul McCartney Donned a Disguise at Fillmore East</b>
             <h4>Oct 22·3 min read<img src="./assets/imgs/svg/star.svg" /></h4>
@@ -9355,7 +9358,7 @@
           <div class="main_article_left">
             <div class="main_article_author">
               <img src="./assets/imgs/image07.jpeg" />
-              <p>Robert Roy Britt</p>
+              <div>Robert Roy Britt</div>
             </div>
             <h2>How Old is Old?</h2>
             <p>
@@ -9365,19 +9368,20 @@
 
             <div class="main_article_lastrow">
               <p>
-                Oct 27 · 5 min read · Aging
+                Oct 27 · 5 min read · <button>Aging</button>
                 <img src="./assets/imgs/svg/star.svg" />
               </p>
               <img src="./assets/imgs/svg/bookmark.svg" />
             </div>
           </div>
+
           <img src="./assets/imgs/image08.jpeg" id="article_preview_img" />
         </div>
         <div class="main_article">
           <div class="main_article_left">
             <div class="main_article_author">
               <img src="./assets/imgs/image09.jpeg" />
-              <p>Taru Anniina Liikanen</p>
+              <div>Taru Anniina Liikanen</div>
             </div>
             <h2>Is Taylor Swift Allowed to Speak About Fat?</h2>
             <p>
@@ -9386,7 +9390,7 @@
 
             <div class="main_article_lastrow">
               <p>
-                Oct 24 · 6 min read · Health
+                Oct 24 · 6 min read · <button>Health</button>
                 <img src="./assets/imgs/svg/star.svg" />
               </p>
               <img src="./assets/imgs/svg/bookmark.svg" />
@@ -9398,7 +9402,7 @@
           <div class="main_article_left">
             <div class="main_article_author">
               <img src="./assets/imgs/image11.jpeg" />
-              <p>David Rodenas, Ph. D.</p>
+              <div>David Rodenas, Ph. D.</div>
             </div>
             <h2>Don’t Screw Up, You Will Be Found Guilty</h2>
             <p>
@@ -9408,7 +9412,7 @@
 
             <div class="main_article_lastrow">
               <p>
-                Oct 15 · 5 min read · Software Engineering
+                Oct 15 · 5 min read · <button>Software Engineering</button>
                 <img src="./assets/imgs/svg/star.svg" />
               </p>
               <img src="./assets/imgs/svg/bookmark.svg" />
@@ -9421,7 +9425,7 @@
           <div class="main_article_left">
             <div class="main_article_author">
               <img src="./assets/imgs/image13.png" />
-              <p>Microsoft Design</p>
+              <div>Microsoft Design</div>
             </div>
             <h2>Leave No Trace</h2>
             <p>
@@ -9431,7 +9435,7 @@
 
             <div class="main_article_lastrow">
               <p>
-                Oct 25 · 11 min read · Sustainability
+                Oct 25 · 11 min read · <button>Sustainability</button>
                 <img src="./assets/imgs/svg/star.svg" />
               </p>
               <img src="./assets/imgs/svg/bookmark.svg" />
@@ -9444,7 +9448,7 @@
           <div class="main_article_left">
             <div class="main_article_author">
               <img src="./assets/imgs/image15.jpeg" />
-              <p>Scott H. Young</p>
+              <div>Scott H. Young</div>
             </div>
             <h2>Variability, Not Repetition, is the Key to Mastery</h2>
             <p>
@@ -9455,7 +9459,7 @@
 
             <div class="main_article_lastrow">
               <p>
-                Oct 26 · 7 min read · Health
+                Oct 26 · 7 min read · <button>Health</button>
                 <img src="./assets/imgs/svg/star.svg" />
               </p>
               <img src="./assets/imgs/svg/bookmark.svg" />
@@ -9467,8 +9471,11 @@
         <div class="main_article">
           <div class="main_article_left">
             <div class="main_article_author">
-              <img src="./assets/imgs/image17.png" />
-              <p>Paul A. DeStefano in Human Parts</p>
+              <img
+                src="./assets/imgs/image17.png"
+                id="inside_trending_article_02"
+              />
+              <div>Paul A. DeStefano in Human Parts</div>
             </div>
             <h2>What I Overheard as an Escape Room Actor</h2>
             <p>
@@ -9478,7 +9485,7 @@
 
             <div class="main_article_lastrow">
               <p>
-                Jan 18, 2020 · 6 min read · Experiences
+                Jan 18, 2020 · 6 min read · <button>Experiences</button>
                 <img src="./assets/imgs/svg/star.svg" />
               </p>
               <img src="./assets/imgs/svg/bookmark.svg" />
@@ -9491,7 +9498,7 @@
           <div class="main_article_left">
             <div class="main_article_author">
               <img src="./assets/imgs/image19.jpeg" />
-              <p>Kim Scott</p>
+              <div>Kim Scott</div>
             </div>
             <h2>
               6 Steps for Setting Measurable Goals to Avoid “Productivity
@@ -9505,7 +9512,7 @@
 
             <div class="main_article_lastrow">
               <p>
-                Oct 24 · 6 min read · Health
+                Oct 24 · 6 min read · <button>Health</button>
                 <img src="./assets/imgs/svg/star.svg" />
               </p>
               <img src="./assets/imgs/svg/bookmark.svg" />
@@ -9547,4 +9554,5 @@
       </div>
     </div>
   </body>
+  <script src="./assets/js/script.js"></script>
 </html>
