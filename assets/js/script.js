@@ -1,5 +1,5 @@
 function changeNavbarColor() {
-  const navbar = document.querySelector(".nav");
+  const navbar = document.querySelector("nav");
   const headBackground = document.querySelector(".head_background");
   const navbarButton = document.querySelector("#navbar_button");
 
